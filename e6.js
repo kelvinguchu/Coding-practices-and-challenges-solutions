@@ -1,4 +1,4 @@
-/*a function that finds the maximum cosecutive sum in an array*/
+/*a function that finds the maximum consecutive sum in an array*/
 
 function maxConsecutiveSum(string) {
     array = string.split(",").map(num => parseInt(num.trim()));
