@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vowels counter</title>
+</head>
+<body>
+    <div>
+        <input type="text"  id="input">
+        <p id = "demo">The number of vowels is:</p>
+        <button id="btn">count</button>
+    </div>
+</body>
+<script>
+
+    let btn = document.getElementById("btn");
+
+    // event listener to check for the vowels in the sentence
+    btn.addEventListener("click", countVowels);
+
+    function countVowels() {
+        let word = document.getElementById("input").value;
+        let vowelCount = 0;
+        for (let i = 0; i < word.length; i++) {
+            let char = word.charAt(i);
+            if (char === "a" || 
+                char === "e" || 
+                char === "i" || 
+                char === "o" || 
+                char === "u") {
+                    vowelCount++;
+                };
+        };
+        document.getElementById("demo").innerHTML = "The number of vowels is: " + vowelCount;
+    };
+
+</script>
+</html>
