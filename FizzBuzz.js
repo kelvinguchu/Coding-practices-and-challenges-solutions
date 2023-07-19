@@ -1,4 +1,5 @@
-// a function to print "Fizz" for multiples of 3 and "Buzz" for multiples of 5 and 
+// a function to print "Fizz" for multiples of 3 
+//and "Buzz" for multiples of 5 and 
 // "FizzBuzz" for multiples of 3 and 5
 
 function fizzBuzz() {
