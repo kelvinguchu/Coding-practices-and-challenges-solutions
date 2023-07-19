@@ -13,4 +13,4 @@ function findTarget (target, array) {
     return false;
 }
 
-console.log(findTarget(20, numbers));
+console.log(findTarget(19, numbers));
