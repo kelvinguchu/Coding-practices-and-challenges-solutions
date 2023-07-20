@@ -1,3 +1,5 @@
+'use strict';
+
 // a function that checks if numbes in a given array add up to a given target sum.
 
 const numbers = [1, 2, 3, 4, 5];
