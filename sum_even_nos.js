@@ -1,6 +1,6 @@
 'use strict';
 
-//A function that gives the sum of even numbers in an array.
+//a function that gives the sum of even numbers in an array.
 
 //Declare an array of numbers.
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -17,4 +17,5 @@ function findSum(){
     return sum;
 };
 
+//log the sum
 console.log(findSum());
