@@ -6,7 +6,7 @@
 */
 async function addNumbers() {
   // Create a new Promise that immediately resolves to the sum of 5 + 5
-  let myPromise = new Promise((resolve, reject) => {
+  let myPromise = new Promise((resolve) => {
     resolve(5 + 5);
   });
   // Wait for the Promise to resolve and return the result
