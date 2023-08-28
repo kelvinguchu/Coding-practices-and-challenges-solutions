@@ -1,5 +1,5 @@
 /**
- * Bubble Sort algorithm.
+ * Bubble Sort Algorithm.
  */
 
 /**
