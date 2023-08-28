@@ -1,5 +1,5 @@
 /**
- * Breadth First Search (BFS) for a graph.
+ * Breadth First Search for a graph.
  */
 
 /**
