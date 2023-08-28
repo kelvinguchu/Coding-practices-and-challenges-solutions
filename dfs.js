@@ -3,7 +3,7 @@
  */
 
 /**
- * Recursive function to traverse the graph using DFS from a given vertex.
+ * Recursive function to traverse the graph using depth-first search from a given vertex.
  * 
  * @param {number} vertex - The current vertex being explored.
  * @param {Map<number, number[]>} adjList - The adjacency list of the graph.
