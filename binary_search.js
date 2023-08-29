@@ -1,5 +1,5 @@
 /**
- * Binary search algorithm.
+ * Binary Search algorithm.
  */
 
 /**
