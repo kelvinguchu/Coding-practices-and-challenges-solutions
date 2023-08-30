@@ -1,5 +1,5 @@
 /**
- * Breadth First Search for a graph.
+ * Breadth first Search for a graph.
  */
 
 /**
