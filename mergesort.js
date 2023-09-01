@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Merge Sort algorithm.
  */
