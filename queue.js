@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * Queue is a linear data structure that follows a First In First Out (FIFO) 
  * principle, meaning the first element inserted will be the first one to be 
