@@ -1,19 +1,33 @@
+"use strict";
+
+// Define a function to find the median of an array of numbers
 function findMedian(array) {
-    const newArray = array.slice();
-    const length = newArray.length;
+  // Create a copy of the input array to avoid modifying the original
+  const newArray = array.slice();
+  // Get the length of the new array
+  const length = newArray.length;
 
-    newArray.sort((a,b) => a - b);
+  // Sort the array in ascending order
+  newArray.sort((a, b) => a - b);
 
-    if (length % 2 === 0) {
-        const midIndex1 = length / 2 - 1;
-        const midIndex2 = length / 2;
-        return (newArray[midIndex1] + newArray[midIndex2] / 2);
-    }else {
-        const midIndex = Math.floor(length/2);
-        return newArray[midIndex]
-    }
+  // Check if the length of the array is even
+  if (length % 2 === 0) {
+    // If the length is even, calculate the two middle indices
+    const midIndex1 = length / 2 - 1;
+    const midIndex2 = length / 2;
+    // Return the average of the two middle values as the median
+    return (newArray[midIndex1] + newArray[midIndex2]) / 2;
+  } else {
+    // If the length is odd, calculate the middle index
+    const midIndex = Math.floor(length / 2);
+    // Return the middle value as the median
+    return newArray[midIndex];
+  }
 }
 
+// Example input: an array of numbers
 const numbers = [2, 3, 9, 6, 5, 4, 10, 19];
-const median = findMedian(numbers)
-console.log("Median:", median)
+// Call the findMedian function to calculate the median
+const median = findMedian(numbers);
+// Print the calculated median to the console
+console.log("Median:", median);
