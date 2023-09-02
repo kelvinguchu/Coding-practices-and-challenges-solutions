@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   a function that takes a sentence and returns the longest word in the sentence.
