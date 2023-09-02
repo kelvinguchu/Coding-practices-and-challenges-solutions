@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * Recursive function to calculate the factorial of a number.
  *
