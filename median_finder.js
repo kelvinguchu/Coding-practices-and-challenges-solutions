@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 
 // Define a function to find the median of an array of numbers
 function findMedian(array) {
