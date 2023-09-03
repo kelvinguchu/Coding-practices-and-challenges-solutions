@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * Kruskal's minimum spanning tree algorithm.
  */
