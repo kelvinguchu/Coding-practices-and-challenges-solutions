@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Math</title>
-</head>
-<body>
-    <input type="text" id="input">
+  </head>
+  <body>
+    <input type="text" id="input" />
     <button id="btn">sort</button>
     <p id="demo">The largest number is:</p>
     <script>
-        'use strict';
+      "use strict";
 
-        /*
+      /*
         An event listener attached to the button with the id "btn".
         When the button is clicked, this function is executed.
 
@@ -21,20 +21,20 @@
         It converts the input into an array of numbers, finds the largest value in the array,
         and displays the result on the page.
         */
-        document.getElementById("btn").addEventListener("click", function() {
+      document.getElementById("btn").addEventListener("click", function () {
         // Get the input value from the element with the id "input"
         const numbers = document.getElementById("input").value;
 
         // Convert the comma-separated input string into an array of numbers
-        const array1 = numbers.split(",").map(num => parseInt(num.trim()));
+        const array1 = numbers.split(",").map((num) => parseInt(num.trim()));
 
         // Find the largest value in the array using the Math.max() function and the spread operator (...)
         const largestValue = Math.max(...array1);
 
         // Display the result on the page by updating the innerHTML of the element with the id "demo"
-        document.getElementById("demo").innerHTML = "The largest number is: " + largestValue.toString();
-        });
-
+        document.getElementById("demo").innerHTML =
+          "The largest number is: " + largestValue.toString();
+      });
     </script>
-</body>
+  </body>
 </html>
