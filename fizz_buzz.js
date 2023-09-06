@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   a function to print "Fizz" for multiples of 3,
